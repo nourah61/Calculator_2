@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <test thread-count="5" name="Check Background(failed)">
+    <classes>
+      <class name="testcases.TC07_CheckBackground">
+        <methods>
+          <include name="prepare"/>
+          <include name="TearDown"/>
+          <include name="checkBackground"/>
+        </methods>
+      </class> <!-- testcases.TC07_CheckBackground -->
+    </classes>
+  </test> <!-- Check Background(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

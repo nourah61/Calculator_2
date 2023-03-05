@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+<!--    <test verbose="2" preserve-order="true" name="checksumoperatiom">-->
+<!--        <classes>-->
+<!--            <class name="testcases.TC02_CheckGesters">-->
+<!--                <methods><exclude name="checkBlutoth"></exclude>-->
+<!--                    <exclude name="CheckRoutation"></exclude>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+
+<!--    </test>-->
+
+<!--    <test verbose="2" preserve-order="true" name="Check WIFI">-->
+<!--        <classes>-->
+<!--            <class name="testcases.TC03_CheckWIFI"></class>-->
+
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test verbose="2" preserve-order="true" name="Check MOBILE">-->
+<!--        <classes>-->
+<!--            <class name="testcases.TC04_CheckMobileData"></class>-->
+<!--           -->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test verbose="2" preserve-order="true" name="Check Blutoth">-->
+<!--        <classes>-->
+<!--            <class name="testcases.TC05_CheckBlutoth"></class>-->
+
+<!--        </classes>-->
+<!--   </test>-->
+
+<!--    <test verbose="2" preserve-order="true" name="Check Device">-->
+<!--        <classes>-->
+<!--            <class name="testcases.TC06_CheckDeviceLocation"></class>-->
+
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test verbose="2" preserve-order="true" name="Check Background">
+        <classes>
+            <class name="testcases.TestBases"></class>
+
+        </classes>
+    </test>
+
+</suite>
